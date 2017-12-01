@@ -1,0 +1,28 @@
+{
+    "name": "Social Machinables UG (haftungsbeschränkt)",
+    "short_name": "Social Machinables: concerted machines for human collaboration",
+    "description": "",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "/img/launcher-1x.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/img/launcher-2x.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/img/launcher-4x.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#fff",
+    "display": "browser",
+    "orientation": "portrait",
+    "prefer_related_applications": false
+}

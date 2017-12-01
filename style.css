@@ -1,0 +1,340 @@
+body{    
+    font-family: 'Roboto', sans-serif;
+    font-size:100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color:#555;
+    font-weight:bold;
+}
+
+a {
+    color:#0088aa;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.divider {
+    height:50px;
+}
+
+.logo {
+    width: 30%;
+}
+
+
+h1.title{
+    color:#555;
+    font-size:3.5em;
+}
+
+h2{
+    font-size:3em;
+}
+
+.bright {
+    color:#fff;
+}
+
+.panel-img{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-illustration{
+    overflow:hidden;
+    width:60%;
+    padding-bottom:10px;
+}
+
+.panel-body{
+   text-align:left; 
+}
+
+.panel-heading{
+    text-align: center;
+}
+.panel-heading h3{
+    color:#fff;
+}
+
+.panel-heading h3 span {
+        font-size: .7em;
+    }
+    .panel-heading h3 i {
+        font-size: 2.5em;
+    }
+
+
+section {
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+section.init {
+    height:80vh;
+    width:100%;
+    overflow:hidden;
+}
+
+h4{
+    font-size:1.2em;
+}
+
+h2.bg-mid {
+	/*background: url('bg1.jpg') no-repeat center center fixed;*/
+    
+     height:150px;
+     overflow: hidden;
+}
+
+.right{
+    float:right; 
+}
+
+#lang_chooser{
+    padding:0 20px 0 0;
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+}
+  
+.bg-small {
+	padding-top:7%;
+    color:#fff;
+    background-color:#0088aa;
+    overflow:hidden;
+    margin:0;
+    padding-left: 0;
+}
+
+section#referenzen {
+	/*background: url('bg3.jpg') no-repeat bottom center fixed;*/
+    color:#444;
+    background-color:#a8e3f0;
+    padding: 10px 0 0 0;
+    
+}
+
+.bg-stats{
+    background: #333;
+    color:#fff;
+}
+
+.carousel {
+    width:100%;
+    height:80vh;
+}
+
+.carousel-item{
+    background-color:#a8e3f0;
+    padding: 15px 55px;
+}
+.carousel-caption{
+    color:#0088aa;
+}
+ .carousel-nav{
+background-color:#ddd;
+color: #0088aa;
+width:30px;
+ }
+
+ .carousel-item {
+     max-height:0%;
+     height:90%;
+     padding:5px 10px;  
+     overflow:hidden;
+ }
+
+ .carousel-item h3 {
+     margin: 0;
+     color:#333;
+ }
+
+
+ .carousel-item img {
+     margin-top:5px;
+     width:100%;
+     height:auto;
+ }
+
+ .carousel-item .ref-description{
+     text-align:left;
+     padding:0 1%;
+ }
+
+ .ref-description ul{
+     padding: 5px 0 0 15px;
+ }
+
+.carousel-control-next-icon{
+    color: #0088aa;
+}
+
+
+.big-dev{
+    font-size: 8em;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.med-dev{
+    font-size: 4em;
+    vertical-align: middle;
+    margin-right: 18px;
+}
+
+.counter-container{
+    margin-top:2em;
+}
+.counter-container div{
+    display: inline;
+}
+.stat-icon.fa {
+    font-size:3em;
+    margin-right:.4em;
+    color:#fff;
+}
+.counter{
+    font-size:2em;
+}
+.center{
+    margin: 0 auto;
+}
+.tab-icon.fa {
+    font-size:3em;
+    margin-right:.4em;
+    color:#333;
+}
+.dev-contents{
+    padding-top:20px;
+    width:60%;
+    margin: 0 auto;
+}
+
+.dev-icons{
+    text-align: center;
+    display: block;
+    margin:0 20px 20px 0;
+}
+
+.dev-icons i.icons{
+    font-size:1.5em;
+    color:white;
+     border: red;
+    background-color: #888;
+    height: 100px;
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+    padding:6px;
+}
+
+.dev-label{
+    margin-top:6px;
+    color: #888;
+    font-size:.8em;
+}
+
+.center{
+    text-align: center;
+     color:#333;
+}
+
+#contact{
+    width:100%;
+    margin: 0 auto;
+}
+#contact input{
+    width:80%;
+}
+#contact textarea {
+    height:160px;
+    width:100%;
+}
+
+#footer {
+    min-height: 300px;
+    background-color:#0088aa;
+    color:#fff;
+    margin-top:30px;
+    padding-bottom:5%;
+}
+
+#footer div {
+    margin-top:10px;
+}
+
+.emphasize {
+font-weight: bold;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+.inputGroupContainer{
+    padding-left:0;
+}
+
+.carousel-indicators {
+    margin-bottom:0;
+}
+
+.carousel-indicators li{
+    
+    background-color:#fff;
+}
+
+.carousel-indicators .active, .carousel-indicators li:hover{
+    background-color:#555;
+}
+
+@media all and (max-width:575px){
+   
+    h1.title {
+        font-size:1.8em;
+    }
+
+    p.claim {
+        font-size:.9em;
+    }
+
+    h2 {
+        font-size: 2em;
+        vertical-align: middle;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin-bottom:20px;
+    }
+    .panel-heading {
+        display:inline;
+        overflow:hidden;
+        color:#fff;
+    }
+    .panel-heading h3 span {
+        font-size: .7em;
+    }
+    .panel-heading h3 i {
+        font-size: 2.5em;
+    }
+    .stat-icon.fa {
+        font-size:2em;
+    }
+    .counter {
+        font-size:2em;
+    }
+
+    .ref-description{
+        font-size:.9em;
+        line-height: 1.3em;
+        max-height:90%;
+    }
+}
+
