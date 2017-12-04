@@ -21,6 +21,8 @@ a:hover{
     height:50px;
 }
 
+
+
 .logo {
     width: 30%;
 }
@@ -29,6 +31,7 @@ a:hover{
 h1.title{
     color:#555;
     font-size:3.5em;
+    
 }
 
 h2{
@@ -47,7 +50,7 @@ h2{
 
 .panel-illustration{
     overflow:hidden;
-    width:60%;
+    width:100%;
     padding-bottom:10px;
 }
 
@@ -72,7 +75,7 @@ h2{
 
 section {
     padding-top:50px;
-    padding-bottom:50px;
+    padding-bottom:10px;
     overflow:auto;
 }
 
@@ -112,12 +115,13 @@ h2.bg-mid {
     overflow:hidden;
     margin:0;
     padding-left: 0;
+    box-shadow: 2px 2px 2px #888888;
 }
 
 section#referenzen {
 	/*background: url('bg3.jpg') no-repeat bottom center fixed;*/
     color:#444;
-    background-color:#a8e3f0;
+    background-color:#69b9cd;
     padding: 10px 0 0 0;
     
 }
@@ -125,15 +129,16 @@ section#referenzen {
 .bg-stats{
     background: #333;
     color:#fff;
+    box-shadow: 2px 2px 2px #888888;
 }
 
 .carousel {
     width:100%;
-    height:80vh;
+    min-height:80vh;
 }
 
 .carousel-item{
-    background-color:#a8e3f0;
+    background-color:#69b9cd;
     padding: 15px 55px;
 }
 .carousel-caption{
@@ -160,8 +165,8 @@ width:30px;
 
  .carousel-item img {
      margin-top:5px;
-     width:100%;
-     height:auto;
+     max-width:100%;
+     max-height:60vh;
  }
 
  .carousel-item .ref-description{
@@ -170,7 +175,17 @@ width:30px;
  }
 
  .ref-description ul{
-     padding: 5px 0 0 15px;
+     padding: 5px 0 0 25px;
+     list-style: '----  ';
+ }
+
+ ul {
+     padding:4px 25px;
+ }
+ ul li {
+     list-style: '----  ';
+     margin-bottom:6px;
+
  }
 
 .carousel-control-next-icon{
@@ -286,12 +301,25 @@ font-weight: bold;
 }
 
 .carousel-indicators li{
-    
     background-color:#fff;
+    box-shadow: 1px 1px 1px #888888;
+    
 }
 
 .carousel-indicators .active, .carousel-indicators li:hover{
     background-color:#555;
+}
+
+.icon.fa {
+    display:none;
+}
+
+.btn-primary {
+    background-color: #0088aa;
+}
+
+.btn-primary:hover {
+    background-color: #69b9cd;
 }
 
 @media all and (max-width:575px){
@@ -305,14 +333,19 @@ font-weight: bold;
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 1.5em;
         vertical-align: middle;
     }
 
     h3 {
-        font-size: 1.2em;
+        font-size: 1.5em;
         margin-bottom:20px;
     }
+
+    #referenzen h3 {
+        font-size:1em;
+    }
+
     .panel-heading {
         display:inline;
         overflow:hidden;
@@ -322,7 +355,7 @@ font-weight: bold;
         font-size: .7em;
     }
     .panel-heading h3 i {
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
     .stat-icon.fa {
         font-size:2em;
@@ -332,9 +365,13 @@ font-weight: bold;
     }
 
     .ref-description{
-        font-size:.9em;
-        line-height: 1.3em;
+        font-size:.8em;
+        line-height: 1.4em;
         max-height:90%;
+        margin:0; padding:0;
+    }
+    .ref-description a {
+        color:#fff;
     }
 }
 
