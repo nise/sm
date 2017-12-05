@@ -30,12 +30,12 @@ i18next.init({
                 "section-ref": "References",
                 "section-stats": "A few stats about us",
                 "section-contact": "Contact us today",
-                "section-sm":"Social Machinables stand for",
+                "section-sm": "Social Machinables stand for",
                 "contact": "Contact",
-                "dev-short": "We are specialized on building scalable and reliable community systens, social networks, collaboration platforms, learning environments and hypermedia solutions. Our team of software engineers, interaction designers, and UX experts can provide you highly customized solutions for you audiences and customers.",
-                "training-short": "We are experts for digital learning experiences. Having the right tools at hand, we can design and structure comprehensive learning environments for personlized and collaborative learning. You are looking for VR content, interactive Videos, or effective online tests and assessments? No problem, we have years of experience in that fields. ",
-                "consulting-short": "Our past experience and sucessful projects can help you to improve your products and services. Tell us about your projects and we will provide you a team of consultants.",
-                "sm-short": "<ul><li>Systems that support collaborative work and collaborative learning</li><li>Social Bots and Agenten Systemes helping teams and perform tasks autonomously</li><li>cognitive interfaces for devices in the Internet of Things</li></ul>",
+                "dev-short": "We are specialised on building scalable and reliable community systems, social networks, collaboration platforms, learning environments and hypermedia solutions. Our team of software engineers, interaction designers, and UX experts can provide you highly customised solutions for you audiences and customers.",
+                "training-short": "We are experts for digital learning experiences. Having the right tools at hand, we can design and structure comprehensive learning environments for personalised and collaborative learning. You are looking for VR content, interactive Videos, or effective online tests and assessments? No problem, we have years of experience in that fields. ",
+                "consulting-short": "Our past experience and successful projects can help you to improve your products and services. Tell us about your projects and we will provide you a team of consultants.",
+                "sm-short": "<ul><li>Systems that support collaborative work and collaborative learning</li><li>Social bots and agent systems helping teams and perform tasks autonomously</li><li>cognitive interfaces for devices in the Internet of Things</li></ul>",
                 "dev-desc": "",
                 "training-desc": "",
                 "consulting-desc": "",
@@ -51,9 +51,9 @@ i18next.init({
                 "stat-projects": "Projects delivered",
                 "ref-moodle": "Vi moodle is the first video database that can be integrated into the world leading open source learning environment. Further more, Vi-Moodle provides capabilities for video annotations such as commenting, tagging, and hyperlinking.",
                 "ref-iwrm": "One possibility to support the worldwide implementation of an Integrated Water Resource Management (IWRM) is to improve respective research and education. This is why IWAS (International Water Research Alliance Saxony), together with the German IHP / HWRP (International Hydrological Programme of UNESCO and Hydrology and Water Resources Programme of WMO), has developed an E-Learning module on IWRM that interlinks 45 lectures by topic, geographic linkage (e.g.climate change). The Module has been listed as on of the UN Climate Change Learning Platforms.<br>See <a href='htp://www.iwrm-education.de/'>www.iwrm-education.org</a>",
-                "ref-scrivico": "Scripted Video Collaboration (SCRIVICO) is an advanced digital learning environment for collaborative video-based learning. SCRIVICO is dedicated for teachers with high demands in activating students for learning in groups online. Complex tasks will be broken down and structured into meaningful learning activities: <ul><li>individual and peer assessment</li><li>video analysis and in-video annotations</li><li>comments and disscussions</li></ul>",
-                "ref-terezin": "The project Theresienstadt explained aims to make the Nazi propaganda film \"Theresienstadt\" accessible for learning. We identified people, places and the intrinsic propaganda and augmented them as time-related information to the film. As a result we could yield learning results for different learning puposes: <ul><li>supporting interactive live screenings by navigational aids and augmented data</li><li>individual self regulated learning in the web for an international audience</li><li>scripted collaborative learning by analysing and discussing the film</li></ul>",
-                "ref-module": "ModuleBase is a database and analytics instrument for managing university modules per course and lecture. Its key features are<ul><li>supports teachers to identify overlapping learning contents and to collaborate with colleagues</li><li>help students to find and select the reight courses for their study</li><li>visualize semantical relation between courses and lectures</li></ul>"
+                "ref-scrivico": "Scripted Video Collaboration (SCRIVICO) is an advanced digital learning environment for collaborative video-based learning. SCRIVICO is dedicated for teachers with high demands in activating students for learning in groups online. Complex tasks will be broken down and structured into meaningful learning activities: <ul><li>individual and peer assessment</li><li>video analysis and in-video annotations</li><li>comments and discussions</li></ul>",
+                "ref-terezin": "The project Theresienstadt explained aims to make the Nazi propaganda film \"Theresienstadt\" accessible for learning. We identified people, places and the intrinsic propaganda and augmented them as time-related information to the film. As a result we could yield learning results for different learning purposes: <ul><li>supporting interactive live screenings by navigational aids and augmented data</li><li>individual self regulated learning in the web for an international audience</li><li>scripted collaborative learning by analysing and discussing the film</li></ul>",
+                "ref-module": "ModuleBase is a database and analytic instrument for managing university modules per course and lecture. Its key features are<ul><li>supports teachers to identify overlapping learning contents and to collaborate with colleagues</li><li>help students to find and select the right courses for their study</li><li>visualise semantically relation between courses and lectures</li></ul>"
             }
         },
         de: {
@@ -73,11 +73,11 @@ i18next.init({
                 "phone": "Telefon: ",
                 "email": "E-Mail: ",
                 "email2": "E-Mail",
-                "dev-short": "Wir sind spezialisiert auf die Entwicklung von skalierbaren und zuverlässigen Community Systemen, Sozialen Netzwerken, Kollaborationplattformen, Lernumgebungen und Hypermedia Lösungen. Unser Team aus Software Entwicklern, Interaction Designern und UX Experten bietet Ihnen maßgeschneiderte Lösungen für Ihre Zielgruppen und Kunden.",
+                "dev-short": "Wir sind spezialisiert auf die Entwicklung von skalierbaren und zuverlässigen Community Systemen, Sozialen Netzwerken, Kollaborationsplattformen, Lernumgebungen und Hypermedia Lösungen. Unser Team aus Software Entwicklern, Interaction Designern und UX Experten bietet Ihnen maßgeschneiderte Lösungen für Ihre Zielgruppen und Kunden.",
                 "training-short": "Wir sind Experten für digitale Lernerfahrungen. Mit den richtigen Werkzeugen gestalten und strukturieren wir umfangreiche Lernumgebungen für das personalisierte und kollaborative Lernen. Sie möchte Virtual Reality Lösungen, interaktive Videos oder effektive online Tests und Assessments? Kein Problem, wir haben die nötige Erfahrung in der Umsetzung und Durchführung. ",
                 "consulting-short": "Unsere zurückliegende Erfahrung und der Erfolg unserer Projekte kann Ihnen helfen, ihre Produkte und Dienstleistungen zu verbessern. Sprechen Sie uns einfach an, wir schicken Ihnen die ein Team von Beratern vorbei.",
 
-                
+
                 "sm-short": "<ul><li> Systeme, die das kooperative Arbeiten und Lernen ermöglichen</li><li>Social Bots und Agenten Systeme, die Teams bei ihrer Arbeit unterstützt und Aufgaben autonom erledigen</li><li>kognitive Schnittstellen zu Geräte im Internet of Things</li></ul>",
                 "dev-desc": "",
                 "training-desc": "",
