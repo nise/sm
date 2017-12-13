@@ -35,7 +35,7 @@ i18next.init({
                 "dev-short": "We are specialised on building scalable and reliable community systems, social networks, collaboration platforms, learning environments and hypermedia solutions. Our team of software engineers, interaction designers, and UX experts can provide you highly customised solutions for you audiences and customers.",
                 "training-short": "We are experts for digital learning experiences. Having the right tools at hand, we can design and structure comprehensive learning environments for personalised and collaborative learning. You are looking for VR content, interactive Videos, or effective online tests and assessments? No problem, we have years of experience in that fields. ",
                 "consulting-short": "Our past experience and successful projects can help you to improve your products and services. Tell us about your projects and we will provide you a team of consultants.",
-                "sm-short": "<ul><li>Systems that support collaborative work and collaborative learning</li><li>Social bots and agent systems helping teams and perform tasks autonomously</li><li>cognitive interfaces for devices in the Internet of Things</li></ul>",
+                "sm-short": "<ul><li>Systems that support collaborative work and collaborative learning</li><li>Social bots and agent systems that are helping teams and perform tasks autonomously</li><li>cognitive interfaces for devices in the Internet of Things</li></ul>",
                 "dev-desc": "",
                 "training-desc": "",
                 "consulting-desc": "",
