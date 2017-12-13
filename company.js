@@ -118,7 +118,7 @@ i18next.on('languageChanged', () => {
 (function ($) {
     $(document).ready(function () {
         i18next.changeLanguage('en');
-        $('#lang_de').hide();
+        $('#lang_en').hide();
     });
 })(jQuery);
 

@@ -14,8 +14,8 @@
     <script src="lib/jquery.min.js"></script>
     <script src="lib/tether.min.js"></script>
     <script src="lib/bootstrap.min.js"></script>
-    <!--<script src="https://unpkg.com/i18next/i18next.js"></script>-->
-    <script src="lib/i18next.js"></script>
+    <script src="https://unpkg.com/i18next/i18next.js"></script>
+    <!--<script src="lib/i18next.js"></script>-->
     <script src="company.js"></script>
 
 </head>
@@ -25,7 +25,7 @@
     <section class="text-center init">
         <div class="right" id="lang_chooser">
             <a id="changeLanguage" onClick="javascript:changeLng();" class="language-switch" href="#">
-                en
+                de
             </a>
         </div>
         <br/>
@@ -37,7 +37,17 @@
 
     <div class="divider"></div>
     <section class="bg-small">
-    <div class="container">
+    <div class="container col-md-8">
+        <div class="row">
+            <div class="offset-sm-2">
+                <h3 class="bright">
+                    <span data-i18n="section-sm"></span>
+                </h3>
+                <div data-i18n="sm-short" class="panel-body">
+        
+                </div>
+            </div>
+        </div>
         <div class="divider"></div>
         <div class="row">
             <div class="col-4">
@@ -74,22 +84,13 @@
             </div>
         </div>
         <!--/row-->
+        <div class="divider"></div>
     </div>
     </section>
     <!--/quick menu-->
     <!--section dev-->
     <section id="entwicklung" class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-10 col-xs-10 offset-sm-2">
-                <h3>
-                    
-                    <span data-i18n="section-sm"></span>
-                </h3>
-                <div data-i18n="sm-short" class="panel-body">
-                    
-                </div>
-            </div>
-        </div>
+        
     </section>
     <!--/section dev-->
     <!--section dev-->
@@ -246,9 +247,9 @@
     </section>
     <!--parallax 2 -->
     <section class="bg-stats text-center">
-        <div class="container">
+        <div class="container col-md-8">
             <div class="tophead white">
-                <h2 class="bright" data-i18n="section-stats"></h2>
+                <h3 class="bright" data-i18n="section-stats"></h3>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 fewstatssub">
@@ -298,13 +299,13 @@
 
     <section class="" id="contact">
         
-        <div class="container">
+        <div class="container col-md-8">
             <h3 data-i18n="section-contact"></h3>
             <form action="https://formspree.io/niels.seidel@nise81.com" method="POST">
                 <fieldset>
                     <!-- Text input-->
                     <div class="form-group">
-                        <div class="col-md-8 col-sm-12 col-xs-12 inputGroupContainer">
+                        <div class="col-md-12 col-sm-12 col-xs-12 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="fa fa-user"></i>
@@ -317,7 +318,7 @@
 
                     <!-- Text input-->
                     <div class="form-group">
-                        <div class="col-md-8 col-sm-12 col-xs-12 inputGroupContainer">
+                        <div class="col-md-12 col-sm-12 col-xs-12 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="fa fa-envelope"></i>
@@ -330,7 +331,7 @@
 
                     <!-- Text input-->
                     <div class="form-group">
-                        <div class="col-md-8 col-sm-12 col-xs-12 inputGroupContainer">
+                        <div class="col-md-12 col-sm-12 col-xs-12 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="fa fa-phone"></i>
@@ -342,7 +343,7 @@
 
                     <!-- Text area -->
                     <div class="form-group">
-                        <div class="col-md-8 col-sm-12 col-xs-12 inputGroupContainer">
+                        <div class="col-md-12 col-sm-12 col-xs-12 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="fa fa-pencil"></i>
@@ -357,7 +358,7 @@
                     </div>
                     <!-- Button -->
                     <div class="form-group">
-                        <div class="col-md-4">
+                        <div style="padding-left:0;" class="col-md-4">
                             <button type="submit" class="btn btn-primary" data-i18n="form-send">
                                 <span class="fa fa-send"></span>
                             </button>
