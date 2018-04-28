@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="342.14286"
-     inkscape:cy="520"
+     inkscape:cx="462.114"
+     inkscape:cy="156.34508"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,10 +55,10 @@
      transform="translate(0,-552.75591)">
     <path
        style="opacity:0.9729996;fill:#0088aa;fill-opacity:0.5971429;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 148.60176,599.34821 -0.47768,330.39649 89.9336,51.92383 0,-226.20899 95.83203,55.32812 96.24609,-55.07617 0,226.21094 89.93555,-51.92383 -1.9082,-328.37695 -184.57171,101.92968 z"
+       d="m 148.60176,599.34821 -0.47768,330.39649 89.9336,51.92383 0,-226.20899 95.83203,55.32812 96.24609,-55.07617 0,226.21094 116.79856,0.90664 72.7689,-51.47655 -99.63191,-1.35392 -1.9082,-328.37695 -184.57171,101.92968 z"
        id="path4136-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccc"
+       sodipodi:nodetypes="ccccccccccccc"
        inkscape:export-xdpi="13.03"
        inkscape:export-ydpi="13.03" />
     <path
@@ -89,6 +89,14 @@
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 333.42181,703.40217 1.07143,107.5"
        id="path4161-7-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="13.03"
+       inkscape:export-ydpi="13.03" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 522.53466,929.70139 429.82712,982.3847"
+       id="path4161-7-5-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-xdpi="13.03"
