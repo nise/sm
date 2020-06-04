@@ -12,6 +12,10 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
+h3 {
+    font-family: 'Titillium Web';
+}
+
 a {
     color: #0088aa;
 }
@@ -31,15 +35,20 @@ a:hover {
 h1.title {
     color: #555;
     font-size: 3.5em;
+    font-weight: bold;
+    font-family: 'Titillium Web';
 }
 
 p.claim {
     font-size: 1.2em;
     font-weight: 700;
+    font-family: 'Titillium Web';
 }
 
 h2 {
     font-size: 3em;
+    color: #111;
+    font-family: 'Titillium Web';
 }
 
 .bright {
@@ -181,7 +190,7 @@ section#referenzen {
 
 .ref-description ul {
     padding: 5px 0 0 25px;
-    list-style: '----  ';
+    list-style: '-';
 }
 
 ul {
@@ -189,7 +198,7 @@ ul {
 }
 
 ul li {
-    list-style: '----  ';
+    list-style: disc;
     margin-bottom: 6px;
 }
 
@@ -298,6 +307,33 @@ ul li {
 
 .emphasize {
     font-weight: bold;
+}
+
+.tech-icons {
+    width: 50%;
+    opacity: 0.6;
+}
+
+#tech {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#tech h2 {
+    margin: 50px auto;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 6px solid #111;
+    font-family: 'Titillium Web', 'Roboto';
+}
+
+#tech h4 {
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+#tech .row>div {
+    margin-bottom: 25px;
 }
 
 #footer a {

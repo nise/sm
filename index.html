@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="lib/font-awesome-4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="lib/devicons-master/css/devicons.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton,Karla" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
 
     <script src="lib/jquery.min.js"></script>
     <script src="lib/tether.min.js"></script>
@@ -96,7 +98,7 @@
     <section id="entwicklung" class="container">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-10 col-xs-10 order-sm-1 panel-img">
-                <img class="panel-illustration" src="img/dev.jpg" />
+                <img hidden class="panel-illustration" src="img/dev.jpg" />
             </div>
             <div class="col-lg-9 col-md-8 col-sm-10 col-xs-10 order-sm-2">
                 <h3>
@@ -121,7 +123,7 @@
                 <div class="panel-body" data-i18n="training-short"></div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-10 col-xs-10 order-sm-1 panel-img">
-                <img class="panel-illustration" src="img/training.jpg" />
+                <img hidden class="panel-illustration" src="img/training.jpg" />
             </div>
         </div>
     </section>
@@ -132,7 +134,7 @@
     <section id="beratung" class="container">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-10 col-xs-10 order-sm-1 panel-img">
-                <img class="panel-illustration" src="img/consulting.jpg" />
+                <img hidden class="panel-illustration" src="img/consulting.jpg" />
             </div>
             <div class="col-lg-9 col-md-8 col-sm-10 col-xs-10 order-sm-2">
                 <h3>
@@ -145,8 +147,76 @@
     </section>
     <!--/section teaching-->
     <hr class="">
-    <div style="display:none;"  class="divider"></div>
+    <div style="display:none;" class="divider"></div>
 
+    <section id="tech" style="" class="text-center">
+        <h2>
+            <i class="fa" aria-hidden="true"></i>
+            <span data-i18n="section-technologies"></span>
+        </h2>
+        <div class="row container">
+            <!--
+                    siehe https://www.bixly.com/
+                    vue since 2017
+                    js since 
+                    python since
+                    node.js since 2014
+                -->
+            <div class="col-3">
+                <img src="img/icon-JavaScript.svg" class="tech-icons" alt="">
+                <div class="counterdiv">
+                    <h4>Javascript</h4>
+                    <span data-i18n="tech-js"></span>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="img/icon-Node.svg" class="tech-icons" alt="">
+                <div class="counterdiv">
+                    <h4>Node.js</h4>
+                <span data-i18n="tech-node"></span>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="img/icon-Python.svg" class="tech-icons" alt="">
+                <div class="counterdiv">
+                    <h4>Python</h4>
+                    <span data-i18n="tech-python"></span>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="img/icon-Vue.svg" class="tech-icons" alt="">
+                <div class="counterdiv">
+                    <h4>Vue.js</h4>
+                    <span data-i18n="tech-vue"></span>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="img/icon-R.svg" class="tech-icons" alt="">
+                <div class="counterdiv">
+                    <h4>R</h4>
+                    <span data-i18n="tech-r"></span>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="img/icon-D3.svg" class="tech-icons" alt="">
+                <div class="counterdiv">
+                    <h4>D3</h4>
+                    <span  data-i18n="tech-d3"></span>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="img/icon-Linux.svg" class="tech-icons" alt="">
+                <div class="counterdiv">
+                    <h4>Linux</h4>
+                    <span data-i18n="tech-linux"></span>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <hr class="">
+    <div style="display:none;" class="divider"></div>
 
 
     <!--parallax 2 -->
@@ -251,7 +321,7 @@
                 <h3 class="bright" data-i18n="section-stats"></h3>
             </div>
             <div class="row">
-                <!--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 fewstatssub">
+                <div hidden class="col-lg-3 col-md-3 col-sm-3 col-xs-12 fewstatssub">
                     <div class="counter-container">
                         <div class="stat-icon fa fa-user"></div>
                         <div class="counterdiv">
@@ -260,8 +330,8 @@
                         </div>
                     </div>
                     <h4 data-i18n="stat-clients"></h4>
-                </div>-->
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 fewstatssub">
+                </div>
+                <div hidden class="col-lg-4 col-md-4 col-sm-4 col-xs-12 fewstatssub">
                     <div class="counter-container">
                         <div class="stat-icon fa fa-cloud-upload"></div>
                         <div class="counterdiv">
@@ -275,7 +345,7 @@
                     <div class="counter-container">
                         <div class="stat-icon fa fa-male"></div>
                         <div class="counterdiv">
-                            <span class="counter">4</span>
+                            <span class="counter">8</span>
                             <span>+</span>
                         </div>
                     </div>
@@ -285,7 +355,7 @@
                     <div class="counter-container">
                         <div class="stat-icon fa fa-shield"></div>
                         <div class="counterdiv">
-                            <span class="counter">19</span>
+                            <span class="counter">21</span>
                             <span>+</span>
                         </div>
                     </div>

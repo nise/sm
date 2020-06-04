@@ -27,6 +27,7 @@ i18next.init({
                 "section-dev": "Development",
                 "section-training": "Training",
                 "section-consulting": "Consulting",
+                "section-technologies": "Core Technologies",
                 "section-ref": "References",
                 "section-stats": "A few stats about us",
                 "section-contact": "Contact us today",
@@ -53,7 +54,14 @@ i18next.init({
                 "ref-iwrm": "One possibility to support the worldwide implementation of an Integrated Water Resource Management (IWRM) is to improve respective research and education. This is why IWAS (International Water Research Alliance Saxony), together with the German IHP / HWRP (International Hydrological Programme of UNESCO and Hydrology and Water Resources Programme of WMO), has developed an E-Learning module on IWRM that interlinks 45 lectures by topic, geographic linkage (e.g.climate change). The Module has been listed as on of the UN Climate Change Learning Platforms.<br>See <a href='htp://www.iwrm-education.de/'>www.iwrm-education.org</a>",
                 "ref-scrivico": "Scripted Video Collaboration (SCRIVICO) is an advanced digital learning environment for collaborative video-based learning. SCRIVICO is dedicated for teachers with high demands in activating students for learning in groups online. Complex tasks will be broken down and structured into meaningful learning activities: <ul><li>individual and peer assessment</li><li>video analysis and in-video annotations</li><li>comments and discussions</li></ul>",
                 "ref-terezin": "The project Theresienstadt explained aims to make the Nazi propaganda film \"Theresienstadt\" accessible for learning. We identified people, places and the intrinsic propaganda and augmented them as time-related information to the film. As a result we could yield learning results for different learning purposes: <ul><li>supporting interactive live screenings by navigational aids and augmented data</li><li>individual self regulated learning in the web for an international audience</li><li>scripted collaborative learning by analysing and discussing the film</li></ul>",
-                "ref-module": "ModuleBase is a database and analytic instrument for managing university modules per course and lecture. Its key features are<ul><li>supports teachers to identify overlapping learning contents and to collaborate with colleagues</li><li>help students to find and select the right courses for their study</li><li>visualise semantically relation between courses and lectures</li></ul>"
+                "ref-module": "ModuleBase is a database and analytic instrument for managing university modules per course and lecture. Its key features are<ul><li>supports teachers to identify overlapping learning contents and to collaborate with colleagues</li><li>help students to find and select the right courses for their study</li><li>visualise semantically relation between courses and lectures</li></ul>",
+                "tech-js": "Used since day one for frontend and backend development",
+                "tech-python": "A good balance between programatic ideals and practicality",
+                "tech-node": "Great tool for concurrunt processes",
+                "tech-r": "Powerfull statistics and data mining",
+                "tech-linux": "Open source from scratch",
+                "tech-vue": "Progressive single page apps with ease",
+                "tech-d3": "Data driven visualizations"
             }
         },
         de: {
