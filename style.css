@@ -134,8 +134,10 @@ h2.bg-mid {
 section#referenzen {
     /*background: url('bg3.jpg') no-repeat bottom center fixed;*/
     color: #444;
-    background-color: #69b9cd;
+    background-color: #fff;
     padding: 10px 0 0 0;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .bg-stats {
@@ -148,10 +150,12 @@ section#referenzen {
 .carousel {
     width: 100%;
     min-height: 80vh;
+    max-height: 80vh;
+    margin-bottom:50px;
 }
 
 .carousel-item {
-    background-color: #69b9cd;
+    background-color: #fff;
     padding: 15px 55px;
 }
 
@@ -160,8 +164,8 @@ section#referenzen {
 }
 
 .carousel-nav {
-    background-color: #ddd;
-    color: #0088aa;
+    background-color: #0088aa;
+    color: #fff;
     width: 30px;
 }
 
@@ -203,7 +207,11 @@ ul li {
 }
 
 .carousel-control-next-icon {
-    color: #0088aa;
+    color: #555;
+}
+
+.carousel-control-prev-icon {
+    color: #555;
 }
 
 .big-dev {
@@ -319,7 +327,7 @@ ul li {
     margin: 0 auto;
 }
 
-#tech h2 {
+#tech h2, #referenzen h2 {
     margin: 50px auto;
     padding-bottom: 10px;
     width: 100%;
@@ -349,12 +357,12 @@ ul li {
 }
 
 .carousel-indicators li {
-    background-color: #fff;
+    background-color: #555;
     box-shadow: 1px 1px 1px #888888;
 }
 
 .carousel-indicators .active, .carousel-indicators li:hover {
-    background-color: #555;
+    background-color: #0088aa;
 }
 
 .icon.fa {
